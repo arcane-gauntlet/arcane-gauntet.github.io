@@ -1,0 +1,163 @@
+body {
+	background-color: #222222;
+}
+table{
+	font-family: Verdana; 
+	font-size: 16px;
+	color: white;	
+	border-spacing: 0px;
+	}
+tr:nth-child(even){
+	background: #222222;
+}
+tr:nth-child(odd){
+	background: #191919;
+}
+table a{
+	color: white;
+	text-decoration: none;
+}
+h2, h3{
+	font-family: Arial; 
+	font-weight: bold;
+	text-align: center;
+	}
+table.center {
+	margin-left:auto; 
+	margin-right:auto;
+	}
+.centerimage {
+    text-align: center;
+}
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	font-family: Arial; 
+	font-weight: bold;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+.main {
+	font-family: Verdana; 
+	font-size: 16px;
+	margin-left: 200px;
+	padding: 0px 10px;
+}
+.text {
+	font-family: Verdana; 
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+.dex {
+	margin: auto;
+	width: 600px;
+}
+.bug{
+	background-color: #A8B820;
+	width: 100px;
+	color: #53592C;
+}
+.dark{
+	background-color: #705848;
+	width: 100px;
+	color: #251E1E;
+}
+.dragon{
+	background-color: #7038F8;
+	width: 100px;
+	color: #2D1766;
+}
+.electric{
+	background-color: #F8D030;
+	width: 100px;
+	color: #594200;
+}
+.fairy{
+	background-color: #EE99AC;
+	width: 100px;
+	color: #66424A;
+}
+.fighting{
+	background-color: #C03028;
+	width: 100px;
+	color: #5B0F00;
+}
+.fire{
+	background-color: #F08030;
+	width: 100px;
+	color: #592E03;
+}
+.flying{
+	background-color: #A890F0;
+	width: 100px;
+	color: #3A3254;
+}
+.ghost{
+	background-color: #705898;
+	width: 100px;
+	color: #351C75;
+}
+.grass{
+	background-color: #78C850;
+	width: 100px;
+	color: #274E13;
+}
+.ground{
+	background-color: #E0C068;
+	width: 100px;
+	color: #5D4A13;
+}
+.ice{
+	background-color: #98D8D8;
+	width: 100px;
+	color: #486E8E;
+}
+.normal{
+	background-color: #A8A878;
+	width: 100px;
+	color: #4C4431;
+}
+.poison{
+	background-color: #A040A0;
+	width: 100px;
+	color: #4C1130;
+}
+.psychic{
+	background-color: #F85888;
+	width: 100px;
+	color: #741B47;
+}
+.rock{
+	background-color: #B8A038;
+	width: 100px;
+	color: #5A5033;
+}
+.steel{
+	background-color: #B8B8D0;
+	width: 100px;
+	color: #434343;
+}
+.water{
+	background-color: #6890F0;
+	width: 100px;
+	color: #073166;
+}
+.bold{
+	font-weight: bold;
+}
